@@ -1,36 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initialscale=1.0">
- <title>Personal Website</title>
-</head>
-<body>
- <nav>
- <a href="index.html">Home</a> |
- <a href="cv-name.pdf">Download CV</a> |
- <a href="kontak.html">Contact</a> |
- <a href="tentang.html">About me</a>
- </nav>
- <hr />
- <div>
- <h1>Kontak Saya </h1>
- <form>
- <label for="email">Email</label><br />
- <input type="email" name="email" placeholder="alamat
-email"/>
- <br />
- <label for="message">Pesan</label><br />
- <textarea name="message" placeholder="Tulis pesan anda..."
-rows="4" cols="80"></textarea>
- <br />
- <br />
- <input type="submit" value="Kirim" />
- </form>
- </div>
- <hr>
- <footer style="text-align: center;">
- <p>Copyright &copy; 2021 Gibsssssy</p>
- </footer>
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gibran Saddam </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div class="bg-loader">
+            <div class="loader"></div>
+        </div>
+
+        <div class="medsos">
+            <div class="container">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <header>
+        <div class="container">
+            <h1><a href="index.html">GIBRAN</a></h1>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li class="active"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        </header>
+
+        <section class="label">
+            <div class="container">
+                <p>Home / Contact</p>
+            </div>
+        </section>
+
+
+        <section class="service">
+            <div class="container">
+                <h3>CONTACT INFO</h3>
+                <div class="box">
+                    <div class="col-4">
+                        <h4>Address</h4>
+                        <p>Jl. Klipang Pesona Asri 1/10, Semarang</p>
+                    </div>
+                    <div class="col-4">
+                        <h4>Email</h4>
+                        <p>gibransaddam42@gmail.com</p>
+                    </div>
+                    <div class="col-4">
+                        <h4>HP</h4>
+                        <p>085866845569</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4990.943217892343!2d110.47359561534905!3d-7.037866594916587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708dcb40647295%3A0x569a6f406c3c981e!2sKlipang%20Pesona%20Asri%201%2C%20Sendangmulyo%2C%20Kec.%20Tembalang%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050272!5e1!3m2!1sid!2sid!4v1636960869137!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <small>Copyright &copy; 2020 - Gibran. All Right Reserved.</small>
+            </div>
+        </footer>
+
+        <script type="text/javascript">
+                $(document).ready(function(){
+                    $(".bg-loader").hide();
+                })
+        </script>
+    
+
+        
+
+    </body>
 </html>
