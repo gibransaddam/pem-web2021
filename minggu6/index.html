@@ -1,64 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initialscale=1.0">
-    <title>Contoh Project Pemrograman Website</title>
-</head>
-<body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="cv-name.pdf">Download CV</a> |
-        <a href="kontak.html">Contact</a> |
-        <a href="tentang.html">About me</a>
-         </nav>
- <hr />
- <header style="text-align: center;">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gibran Saddam </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
 
-    <img src="Gibran_part_1.jpg" width="200" height="200"
-style="border-radius: 50%;"/>
- <h1>Gibran Saddam Ayyouba </h1>
- <p>(Web Developer)</p>
- </header>
- <hr />
- <article style="text-align: center;">
- <h2>Overview</h2>
- <p>
- Hi, saya adalah calon web developer masa depan, saat ini
-sedang belajar HTML 5.
- </p>
- </article>
- <div style="max-width: 600px; margin: 3em auto">
- <table border="1" width="100%">
- <thead>
- <tr>
- <th>Skill</th>
- <th>Pengalaman</th>
- </tr>
- </thead>
- <tbody>
- <tr>
- <td>
- <ul>
- <li>Mudah Bergaul</li>
- <li>Memiliki Tekad Kuat</li>
- <li>Pandai Berbicara</li>
- </ul>
- </td>
-<td>
- <ul>
- <li>Juara Tournamen Mobile Legand</li>
- <li>Juara Tournamen Apex Legends</li>
- <li>Juara Tournamen Dota 2</li>
- </ul>
- </td>
- </tr>
- </tbody>
- </table>
- </div>
- <hr>
- <footer style="text-align: center;">
- <p>Copyright &copy; 2021 Gibsssssy.</p>
- </footer>
-</body>
+        <div class="bg-loader">
+            <div class="loader"></div>
+        </div>
+
+        <div class="medsos">
+            <div class="container">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <header>
+        <div class="container">
+            <h1><a href="index.html">GIBRAN</a></h1>
+            <ul>
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        </header>
+        <section class="banner">
+            <h2>WELCOME TO MY WEBSITE</h2>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h3>ABOUT</h3>
+                <p> <strong>Hi, saya Gibran Saddam Ayyouba adalah calon web developer masa depan, saat ini
+                    sedang belajar HTML 5.</strong></p>                
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="container">
+                <h3>SERVICE</h3>
+                <div class="box">
+                    <div class="col-4">
+                        <div class="icon"><i class="fas fa-mobile"></i></div>
+                        <h4>MOBILE APP</h4>
+                    </div>
+                    <div class="col-4">
+                        <div class="icon"><i class="fas fa-globe"></i></div>
+                        <h4>WEB DEVELOPMENT</h4>
+                    </div>
+                    <div class="col-4">
+                        <div class="icon"><i class="fas fa-edit"></i></div>
+                        <h4>DESIGN</h4>
+                    </div>
+                    <div class="col-4">
+                        <div class="icon"><i class="fas fa-chart-bar"></i></div>
+                        <h4>DIGITAL MARKETING</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <small>Copyright &copy; 2020 - Gibran. All Right Reserved.</small>
+            </div>
+        </footer>
+
+        <script type="text/javascript">
+                $(document).ready(function(){
+                    $(".bg-loader").hide();
+                })
+        </script>
+    
+
+        
+
+    </body>
 </html>
